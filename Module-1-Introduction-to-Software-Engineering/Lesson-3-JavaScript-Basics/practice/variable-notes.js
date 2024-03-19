@@ -22,3 +22,9 @@ const color1 = 'red'
     const color2 = 'yellow';
     console.log(color2);
 }
+
+{
+    let num = 10
+    num += 20;
+    console.log(num);
+}
