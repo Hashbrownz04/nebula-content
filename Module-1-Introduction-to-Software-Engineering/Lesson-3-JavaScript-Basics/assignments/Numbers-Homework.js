@@ -4,7 +4,7 @@
 // Declare a variable and assign it to a numeric value
 // Half that value and re-assign it to the previous variable
 let num1 = 12;
-num1 / 2;
+num1 /= 2;
 console.log(num1);
 // Create two negative numbers, assign them to variables and subtract one from the other together
 let num2 = -2;
@@ -34,10 +34,10 @@ let remainder = 21;
 console.log(remainder%2);
 // find the square root of 144
 let sqrtNum = Math.sqrt(144);
-console.log(sqrt);
+console.log(sqrtNum);
 // find the value of 3 to the power of 7
 let powNum = Math.pow(3, 7);
-console.log(pow);
+console.log(powNum);
 // find the value of 73.2 rounded
 let round = Math.round(73.2);
 console.log(round);
