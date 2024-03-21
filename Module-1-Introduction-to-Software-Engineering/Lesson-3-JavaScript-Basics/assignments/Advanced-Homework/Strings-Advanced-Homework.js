@@ -30,9 +30,9 @@ console.log(bio)
 
 // 5. Create a variable called `sentence` and assign it a value of your choice.
 //    Use indexing to log the third word of the sentence to the console.
-const sentence = "Hello, I'm me!"
+const sentence = "I am me!"
 
-console.log(sentence.slice(11, 13))
+console.log(sentence.slice(5, 7))
 
 
 // 6. Create a variable called `myString` and assign it a value of your choice.
