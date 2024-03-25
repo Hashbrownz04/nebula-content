@@ -1,5 +1,5 @@
 //1. Write a statement that checks if 2 and 'two' are equal
-console.log(2 == '2')
+console.log(2 === 'two')
 
 //2. Write a statement that checks if '2' and 2 are loosely equal
 console.log('2' == 2)
