@@ -96,6 +96,10 @@ const array2 = [1,2,3]
 
 console.log(array1.concat(array2))
 
+/*
+const newArray = [...array1,...array2]
+console.log(newArray)
+*/
 
 // Create a multi-dimensional array
 const multiArray = [["x","y","z"], [4, 0, 4], ["Sonic","Tails","Knuckles","Amy"]]
