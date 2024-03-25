@@ -51,6 +51,8 @@ console.log(numArr)
 // Given the following array, sort it using an array method
 let sortThis = ["dairy", "banana", "cherry", "apple", "eel"];
 
+console.log(sortThis)
+
 const sortEm = sortThis.sort();
 
 console.log(sortEm)
