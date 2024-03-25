@@ -39,12 +39,12 @@ numArr.indexOf(1) ? console.log(true) : console.log(false)
 */
 
 // Remove the first element from the prior array and set that element to a variable called 'removedFirstItem'
-numArr.shift(numArr[0])
+removedFirstItem = numArr.shift(numArr[0])
 
-console.log(numArr)
+console.log(removedFirstItem)
 
 // Add that item back
-numArr.unshift(1)
+numArr.unshift(removedFirstItem)
 
 console.log(numArr)
 
