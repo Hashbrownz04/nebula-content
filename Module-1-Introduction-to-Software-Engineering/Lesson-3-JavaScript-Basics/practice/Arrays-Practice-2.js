@@ -85,7 +85,9 @@ console.log(split2Array.join("-"))
 // Given the following array: [1,2,3,4,5,7,8,9,10]
 // insert the number 6 into its logical location
 const numArray2 = [1,2,3,4,5,7,8,9,10];
-console.log(numArray2.splice(4, 5, 6))
+numArray2.splice(5, 0, 6);
+
+console.log(numArray2)
 
 
 // Create two arrays and, using JavaScript join them together
