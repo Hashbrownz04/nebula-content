@@ -42,8 +42,6 @@ for(let i = 0; i < myArray.length; i++){
 const mixedArray = ["5", 10, "15", 20, "25"] //i//
 const newArray = []
 
-let j = 0;
-
 for(let i = 0; i < mixedArray.length; i++){
     const currentElement = mixedArray[i];
     if(typeof currentElement == "number"){
