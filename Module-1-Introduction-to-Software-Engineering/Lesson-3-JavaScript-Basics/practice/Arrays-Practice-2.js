@@ -71,7 +71,7 @@ console.log(favoriteFood)
 
 // Convert the prior string into an array of words (don't worry about where punctuation lands). 
 //  Ex: ['My', 'favorite', 'foods', 'are', 'za,', 'pineapple,', 'hawaiian-pizza']
-split2Array = favoriteFood.split(" ");
+const split2Array = favoriteFood.split(" ");
 
 console.log(split2Array)
 
