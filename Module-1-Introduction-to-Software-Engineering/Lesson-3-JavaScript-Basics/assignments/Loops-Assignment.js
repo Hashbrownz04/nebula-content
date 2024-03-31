@@ -153,8 +153,9 @@ for(let i = 0; i < celebList.length; i++){
 
     const string2Array = currentElement.split(" ")
     const array2String = string2Array.join('-')
+    const upCName = array2String.toUpperCase();
 
-    newArray3.push(array2String)
+    newArray3.push(upCName)
 }
 
 console.log(newArray3)

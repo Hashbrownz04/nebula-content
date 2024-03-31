@@ -29,5 +29,23 @@ function nulNum(inputArray) {
 console.log(nulNum(myArray));
 
 // 4. Write a function that console logs 'hello world' 10 times to the console. 
+function print10(string){
+    for(let i = 0; i < 10; i++){
+        console.log(string);
+    }
+}
+
+const myString1 = "Hello World!"
+
+print10(myString1)
 
 // 5. Write the prior function utilizing a 'fat arrow' function
+const sayHello = (string) =>{
+    for(let i = 0; i < 10; i++){
+        console.log(string);
+    }
+}
+
+const myString2 = "Hello World!"
+
+print10(myString2)
