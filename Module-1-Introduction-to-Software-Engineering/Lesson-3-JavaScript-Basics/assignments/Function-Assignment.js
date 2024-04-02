@@ -52,13 +52,12 @@ const flName = (array) => {
         lastName.push(toArray[1])
     }
 
-    console.log(firstName);
-    console.log(lastName)
+    return firstName, lastName;
 }
 
 const nameList = ["Hashem Cruz", "Elohim Cruz", "Carina Torres", "Victoria Serans"]
 
-flName(nameList)
+console.log(flName(nameList));
 
 // 4. Write a function that takes in a name and a greeting and logs a string greeting the person to the console.
 // // Example name = "John Boy" greeting = Goodnight, returns "Goodnight John Boy"
