@@ -1,0 +1,86 @@
+/*the main text*/
+main{
+    color:white;
+    font-family: 'Optima Medium', sans-serif;
+}
+
+/*headers*/
+h1{
+    background-color: navy;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+h2{
+    background-color: rgb(67, 106, 0);
+    position: sticky;
+    top: 35px;
+}
+
+h3{
+    background-color: navy;
+    border-radius: 10px
+}
+
+h3::before{
+    content: "•";
+}
+
+h4{
+    background-color:goldenrod;
+    color:maroon;
+}
+
+/*my profile pic*/
+img{
+    background-color: navy;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1px;
+    image-rendering: pixelated;
+}
+
+/*background*/
+body{
+    background-color:rgb(67, 106, 0);
+}
+
+/*table*/
+table{
+    background-color: goldenrod;
+    position: sticky;
+    top: 65px;
+}
+
+td:hover{
+    background-color: gold;
+    color:black
+}
+
+td:active{
+    background-color:white;
+    color: white
+}
+
+li{
+    color:gold;
+}
+
+/*URL links*/
+.urlLink:hover{
+    background-color:olive;
+}
+
+.urlLink:active{
+    background-color:white;
+}
+
+div{
+    color:white;
+    background-color: navy;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    text-align: center;
+}
