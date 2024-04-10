@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    grid-template-rows: repeat(2, 128px);
+}
+
+h1{
+    height: 50px;
+    border-radius: 30px;
+    text-indent: 10px;
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.add{
+    grid-area: 2 / 1 / span 1 / span 1;
+    border-radius: 10px;
+}
+
+.add:hover{
+    cursor:pointer;
+    background-color: white;
+}
+
+.add:active{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+}
+
+.subtract{
+    grid-area: 2 / 2 / span 1 / span 1;
+    border-radius: 10px;
+}
+
+.subtract:hover{
+    cursor:pointer;
+    background-color: white;
+}
+
+.subtract:active{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+}
+
+.delete{
+    grid-area: 2 / 3 / span 1 / span 1;
+    border-radius: 10px;
+}
+
+.delete:hover{
+    cursor:pointer;
+    background-color: white;
+}
+
+.delete:active{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+}

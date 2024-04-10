@@ -1,0 +1,19 @@
+body{
+    background-color: burlywood;
+    font-size: 24px;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    border: 5px solid black;
+}
+
+ul{
+    font-family: 'Optima Black';
+    text-decoration-line: underline;
+    color:rgb(74, 0, 0);
+}
+
+li{
+    font-family: 'Optima Medium';
+    color:darkblue;
+}
